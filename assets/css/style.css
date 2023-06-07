@@ -230,6 +230,7 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #ffc451;
+  
 }
 
 .navbar .dropdown ul {
@@ -313,6 +314,7 @@ h6 {
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
+   
   }
 
   .navbar ul {
@@ -330,6 +332,7 @@ h6 {
   background: rgba(0, 0, 0, 0.9);
   transition: 0.3s;
   z-index: 999;
+ 
 }
 
 .navbar-mobile .mobile-nav-toggle {
@@ -349,6 +352,7 @@ h6 {
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
+ 
 }
 
 .navbar-mobile a,
@@ -356,6 +360,9 @@ h6 {
   padding: 10px 20px;
   font-size: 15px;
   color: #151515;
+  display: flex;
+  justify-content: center;
+ 
 }
 
 .navbar-mobile a:hover,
