@@ -513,9 +513,12 @@ h6 {
     line-height: 24px;
   }
   .central{
-    width: 400px;
+    width: 300px;
     border-radius: 10px;
     border:solid 8px #ffc451;
+  }
+  .get-started-btn{
+    display: none;
   }
 }
 
