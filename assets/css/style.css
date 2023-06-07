@@ -520,6 +520,9 @@ h6 {
   .get-started-btn{
     display: none;
   }
+  .footer-links{
+    display: none;
+  }
 }
 
 /*--------------------------------------------------------------
