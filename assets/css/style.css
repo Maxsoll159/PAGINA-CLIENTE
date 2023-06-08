@@ -1087,7 +1087,7 @@ section {
 }
 
 .counts .image {
-  background: url("../img/3d.jpg") center center no-repeat;
+  background: url("../img/3d.webp") center center no-repeat;
   border: solid 8px #ffc451;
   border-radius: 10px;
   background-size: cover;
