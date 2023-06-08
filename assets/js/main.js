@@ -1,3 +1,6 @@
+//DEVSOLUTIONSA   COMPANY
+
+
 (function () {
   "use strict";
 
@@ -28,10 +31,6 @@
     const body = document.body;
     body.classList.toggle("dark-mode");
   }
-
-
-
-
 
   /**
    * Easy event listener function
