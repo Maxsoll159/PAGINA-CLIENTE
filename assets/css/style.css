@@ -432,8 +432,8 @@ h6 {
   margin: 15px;
 }
 
-.navbar-mobile .getstarted,
-.navbar-mobile .getstarted:focus {
+.navbar-mobile #responsiveModeButton,
+.navbar-mobile #responsiveModeButton:focus {
   margin: 15px;
 }
 
