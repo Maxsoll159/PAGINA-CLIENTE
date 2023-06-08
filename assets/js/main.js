@@ -1,5 +1,3 @@
-//DEVSOLUTIONSA   COMPANY
-
 
 (function () {
   "use strict";
