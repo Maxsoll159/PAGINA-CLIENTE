@@ -388,9 +388,9 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.6);
   transition: 0.3s;
-  z-index: 999;
+  z-index: 999;  
 }
 
 .navbar-mobile .mobile-nav-toggle {
@@ -407,7 +407,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -415,8 +415,7 @@ h6 {
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 15px;
-  color: #151515;
+  font-size: 18px;
   display: flex;
   justify-content: center;
 }
@@ -428,10 +427,16 @@ h6 {
   background-color: #ffc451;
 }
 
+.navbar-mobile #darkModeButton,
+.navbar-mobile #darkModeButton:focus {
+  margin: 15px;
+}
+
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
   margin: 15px;
 }
+
 
 .navbar-mobile .dropdown ul {
   position: static;
