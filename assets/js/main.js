@@ -17,12 +17,21 @@
 
   const darkModeButton = document.getElementById("darkModeButton");
   darkModeButton.addEventListener("click", toggleDarkMode);
-
   function toggleDarkMode() {
     const body = document.body;
-
     body.classList.toggle("dark-mode");
   }
+
+  const responsiveModeButton = document.getElementById("responsiveModeButton");
+  responsiveModeButton.addEventListener("click", toggleDarkMode);
+  function toggleDarkMode() {
+    const body = document.body;
+    body.classList.toggle("dark-mode");
+  }
+
+
+
+
 
   /**
    * Easy event listener function

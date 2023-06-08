@@ -37,6 +37,33 @@ body.dark-mode {
   color: #343a40;
 }
 
+#responsiveModeButton{
+  color: #fff;  
+  background: none;
+  border-radius: 4px;
+  padding: 8px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  border: 2px solid #ffc451;
+  border-radius: 50%; 
+}
+
+#responsiveModeButton:hover {
+  background: #ffbb38;
+  color: #343a40;
+}
+
+
+@media (max-width: 992px) {
+  #darkModeButton {
+    padding: 7px 20px 8px 20px;
+    margin-right: 15px;
+  }
+ 
+}
+
 .prueba {
   width: 100%;
   height: 100vh;
@@ -195,7 +222,7 @@ h6 {
 /*--------------------------------------------------------------
 #  Get Startet Button
 --------------------------------------------------------------*/
-.get-started-btn {
+/* .get-started-btn {
   color: #fff;
   border-radius: 4px;
   padding: 7px 25px 8px 25px;
@@ -205,19 +232,13 @@ h6 {
   display: inline-block;
   border: 2px solid #ffc451;
   margin-left: 10px;
-}
+} */
 
-.get-started-btn:hover {
+/* .get-started-btn:hover {
   background: #ffbb38;
   color: #343a40;
-}
+} */
 
-@media (max-width: 992px) {
-  .get-started-btn {
-    padding: 7px 20px 8px 20px;
-    margin-right: 15px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -352,6 +373,10 @@ h6 {
   }
 
   .navbar ul {
+    display: none;
+  }
+
+  #resposiveModeButton{
     display: none;
   }
 }
@@ -535,6 +560,9 @@ h6 {
   #hero {
     background-attachment: fixed;
   }
+  #responsiveModeButton{
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -556,11 +584,14 @@ h6 {
     border-radius: 10px;
     border: solid 8px #ffc451;
   }
-  .get-started-btn {
-    display: none;
+  #darkModeButton {
+   display: none;
+  
   }
+
   .footer-links {
     display: none;
+    
   }
 }
 
@@ -1074,6 +1105,9 @@ section {
   .counts .image img {
     max-width: 80%;
   }
+  #darkModeButton{
+    display: none;
+  }
 }
 
 @media (max-width: 667px) {
@@ -1183,6 +1217,7 @@ section {
   .testimonials {
     background-attachment: fixed;
   }
+
 }
 
 @media (min-width: 992px) {
